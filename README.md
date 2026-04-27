@@ -1,7 +1,7 @@
 ## Fresh, working EQEmu + ProjectEQ Windows server
 Files were copied from the official repos at the time some of the resources were pulled offline. This is essentially a plug-and-play archive and guide to installing a working Windows EQEmu server from scratch, exactly as it would have been at that time, with much of the config guesswork taken out of it.
 
-You will need to install 2 support apps (Strawberry Perl, MariaDB).  Other than those, this repo contains everything needed to run the server:  quests, plugins, server maps, pre-compiled binaries, properly formatted conig files, etc.
+You will need to install 2 support apps (Strawberry Perl, MariaDB).  Other than those, this repo contains everything needed to run the server:  pre-compiled binaries, quests, plugins, server maps, properly formatted config files, etc.
 
 ## How to Use:
 ### Perl
