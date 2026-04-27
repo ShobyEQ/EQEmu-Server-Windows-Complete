@@ -1,0 +1,87 @@
+{
+ "server": {
+  "zones": {
+   "defaultstatus": "0",
+   "ports": {
+    "low": "7100",
+    "high": "7500"
+   }
+  },
+  "qsdatabase": {
+   "db": "peq",
+   "host": "127.0.0.1",
+   "port": "3306",
+   "username": "peq",
+   "password": "password"
+  },
+  "ucs": {
+   "host": "192.168.0.1",
+   "port": "7778"
+  },
+  "world": {
+   "api": {
+    "enabled": false
+   },
+   "address": "192.168.0.1",
+   "localaddress": "192.168.0.1",
+   "loginserver1": {
+    "port": "5998",
+    "account": "",
+    "password": "",
+    "host": "192.168.0.1",
+    "legacy": "0"
+   },
+   "tcp": {
+    "ip": "192.168.0.1",
+    "port": "9000"
+   },
+   "telnet": {
+    "ip": "0.0.0.0",
+    "port": "9001",
+    "enabled": "false"
+   },
+   "key": "dk%#EhQdrRkaDEkwok@jRH",
+   "shortname": "peqdon",
+   "longname": "PEQ Dragons of Norrath"
+  },
+  "database": {
+   "db": "peq",
+   "host": "127.0.0.1",
+   "port": "3306",
+   "username": "peq",
+   "password": "password"
+  },
+  "content_database": {},
+  "files": {
+   "opcodes": "assets/opcodes/opcodes.conf",
+   "mail_opcodes": "assets/opcodes/mail_opcodes.conf"
+  },
+  "directories": {
+   "patches": "assets/patches/",
+   "opcodes": "assets/opcodes/"
+  }
+ },
+ "web-admin": {
+  "version": "1.0.0",
+  "application": {
+   "admin": {}
+  },
+  "launcher": {
+   "runSharedMemory": true,
+   "runLoginserver": true,
+   "runQueryServ": true,
+   "runUcs": true,
+   "isRunning": false,
+   "minZoneProcesses": 5,
+   "updateOpcodesOnStart": true,
+   "deleteLogFilesOlderThanDays": 7
+  },
+  "quests": {
+   "hotReload": true
+  }
+ },
+ "spire": {
+  "encryption_key": "",
+  "launcher_start": false
+ }
+}
